@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">TAEX</string>
+    <string name="title_activity_talleres">TalleresActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="titulodetalle">Hola</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="taller_text">Taller Extracurriculares</string>
+    <string name="txt_talleres_artisticos">Talleres Artísticos - Culturales</string>
+    <string name="txt_talleres_deportivos">Talleres Deportivos</string>
+    <string name="txt_talleres_personales">Talleres de Desarrollo Personal</string>
+
+    <string name="inscripcion">Me comprometo a asistir a mis clases, teniendo la oportunidad de cambios solo una semana despues de haber iniciado el taller a partir de entonces ya no me podré retirar y asumiré el costo acordado.</string>
+
+    <string-array name="facultad_array">
+        <item>FACEM</item>
+        <item>FAING</item>
+        <item>FAEDCOH</item>
+        <item>FADE</item>
+        <item>FACSA</item>
+        <item>FAU</item>
+    </string-array>
+
+    <string-array name="facem_array">
+        <item>Ing. Comercial</item>
+        <item>Administración Turística Hotelera</item>
+        <item>Negocios Internacionales</item>
+        <item>C. Contables y Financieras</item>
+        <item>Economía y Micro Finanzas</item>
+    </string-array>
+
+    <string-array name="faing_array">
+        <item>Ing. Civil</item>
+        <item>Ing. Electrónica</item>
+        <item>Ing. Sistemas</item>
+        <item>Ing. Agroindustrial</item>
+        <item>Ing. Ambiental</item>
+        <item>Ing. Industrial</item>
+    </string-array>
+
+    <string-array name="faedcoh_array">
+        <item>C. de la Comunicación</item>
+        <item>Educación</item>
+        <item>Psicología</item>
+    </string-array>
+
+    <string-array name="facsa_array">
+        <item>Medicina Humana</item>
+        <item>Odontología</item>
+        <item>Tecnología Medica - Lab. Clínico</item>
+        <item>Tecnología Médica - Terapia Física</item>
+    </string-array>
+
+    <string-array name="fau_array">
+        <item>Arquitectura</item>
+    </string-array>
+
+    <string-array name="fade_array">
+        <item>Derecho</item>
+    </string-array>
+
+    <string-array name="genero_array">
+        <item>No especificar</item>
+        <item>Femenino</item>
+        <item>Masculino</item>
+    </string-array>
+
+
+    <!--Formulario-->
+    <string name="message">Mensaje</string>
+    <string name="send">Enviar</string>
+    <string name="email">Correo</string>
+    <string name="name">Nombre</string>
+    <string name="mobno">Celular</string>
+    <string name="reg_no">Codigo</string>
+    <string name="nav_artistico">Artistico</string>
+    <string name="nav_deporte">Deporte</string>
+    <string name="nav_personal">Personal</string>
+
+    <string name="mensajesms">TAEX App enviará un único mensaje SMS para verificar la cuenta con su número de celular.</string>
+    <string name="mensajesms2">Introduce el código de verificación:</string>
+</resources>

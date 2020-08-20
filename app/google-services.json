@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "189561070855",
+    "firebase_url": "https://taex-cd0ee.firebaseio.com",
+    "project_id": "taex-cd0ee",
+    "storage_bucket": "taex-cd0ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189561070855:android:921bcd1c67a6f74c0191a2",
+        "android_client_info": {
+          "package_name": "com.example.app_taex_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189561070855-hk6qfdu5cjctmha4ddeirhtifo86jhct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.app_taex_1",
+            "certificate_hash": "1efd2657e9c45ec54de8ef3ece5678869b59e60a"
+          }
+        },
+        {
+          "client_id": "189561070855-mv4mc4i5du1v6crtio282d6ca98joo12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-dw6N63JelV9q1g9nnaZbxRO0ZgI0fNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189561070855-mv4mc4i5du1v6crtio282d6ca98joo12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

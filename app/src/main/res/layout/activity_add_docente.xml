@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddDocenteActivity">
+
+    <EditText
+        android:id="@+id/edt_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="descripcion"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_creardocente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Taller" />
+
+
+</LinearLayout>

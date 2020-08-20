@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PerfilActivity">
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos Personales"
+        android:padding="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/DatosPersonalesCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombres"/>
+            <EditText
+                android:id="@+id/txtnombre1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:ems="10"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Apellidos"/>
+            <EditText
+                android:id="@+id/txtapellidos1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:ems="10"
+                android:inputType="textPersonName" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fecha de Nacimiento"/>
+
+            <EditText
+                android:id="@+id/txtfechanacimiento1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textColor="@color/colortexto"
+                android:ems="10"
+                android:inputType="date" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dirección de Domicilio"/>
+            <EditText
+                android:id="@+id/txtdireccion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:textColor="@color/colortexto"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Celular"/>
+            <EditText
+                android:id="@+id/txtcelular1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:textColor="@color/colortexto"
+                android:ems="10"
+                android:inputType="number" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo Electrónico"/>
+            <EditText
+                android:id="@+id/txtemail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="true"
+                android:textColor="@color/colortexto"
+                android:ems="10"
+                android:inputType="textEmailAddress"/>
+
+            <Button
+                android:id="@+id/btneditardatos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/redondo_boton3"
+                android:text="Guardar Datos"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Datos Académicos"
+        android:padding="20dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/AcademicosCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="false"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facultad"/>
+            <EditText
+                android:id="@+id/txtfacultad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:ems="10"
+                android:inputType="textPersonName"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Escuela Profesional"/>
+            <EditText
+                android:id="@+id/txtcarrera1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="6dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorapp"
+                android:padding="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contraseña Actual"/>
+            <EditText
+                android:id="@+id/txtcontra1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colortexto"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nueva Contraseña"/>
+            <EditText
+                android:id="@+id/txtcontras2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colortexto"
+                android:ems="10"
+                android:inputType="textPassword" />
+
+            <Button
+                android:id="@+id/btneditarcontra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/redondo_boton3"
+                android:text="Guardar Contraseña"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btncerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/redondo_boton"
+        android:text="Cerrar Sesión"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
